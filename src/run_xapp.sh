@@ -1,0 +1,18 @@
+#! /bin/bash
+   2 
+   3 export RMR_SEED_RT="routes.txt"
+   4 export RMR_RTG_SVC="9999"
+   5 export XAPP_NAME="HELLOWORLD_XAPP"
+   6 export HW_PORTS="4560"
+   7 export MSG_MAX_BUFFER="2048"
+   8 export THREADS="1"
+   9 export VERBOSE="0"
+  10 export CONFIG_FILE="config/config-file.json"
+  11 export GNODEB="NYC123"
+  12 export XAPP_ID="3489-er492k-92389"
+  13 export A1_SCHEMA_FILE="schemas/hwxapp-policy.json"
+  14 export VES_SCHEMA_FILE="schemas/hwxapp-ves.json"
+  15 export VES_COLLECTOR_URL="127.0.0.1:6350"
+  16 export VES_MEASUREMENT_INTERVAL="10"
+  17 export LOG_LEVEL="MDCLOG_ERR"
+  18 export OPERATING_MODE="CONTROL"
